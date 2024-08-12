@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="skyy"
+          fetch="https://github.com/HinohArata/"
+          sync-c="true"
+          sync-j="4" />
+        
+  <remote name="device"
+          fetch="https://github.com/RisingOSS-devices/"
+          sync-c="true"
+          sync-j="4"
+          revision="14-qpr3" />
+
+  <remote name="kernel"
+          fetch="https://github.com/Shiryu-Kernel/"
+          sync-c="true"
+          sync-j="4"
+          revision="4.14" />
+
+  <!-- Device Tree -->
+  <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="device" />
+
+  <!-- Kernel Tree -->
+  <project path="kernel/xiaomi/surya" name="kernel_xiaomi_surya" remote="kernel" />
+
+  <!-- MiuiCam Tree -->
+  <project path="device/xiaomi/surya-miuicamera" name="device_xiaomi_surya-miuicamera" revision="14-tes" remote="skyy" />
+  <project path="vendor/xiaomi/surya-miuicamera" name="vendor_xiaomi_surya-miuicamera" revision="14-qpr3" remote="skyy" />
+
+  <!-- Hardware Tree -->
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" />
+
+  <!-- Vendor Tree -->
+  <project path="vendor/xiaomi/surya" name="vendor_xiaomi_surya" revision="qpr3" remote="skyy" />
+
+  <!-- XiaomiParts Tree -->
+  <project path="device/xiaomi/surya/parts" name="parts" revision="qpr3" remote="skyy" />
+</manifest>
