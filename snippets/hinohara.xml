@@ -25,11 +25,11 @@
   <project path="kernel/xiaomi/surya" name="kernel_xiaomi_surya" remote="kernel" />
 
   <!-- MiuiCam Tree -->
-  <project path="device/xiaomi/surya-miuicamera" name="device_xiaomi_surya-miuicamera" revision="14-tes" remote="skyy" />
-  <project path="vendor/xiaomi/surya-miuicamera" name="vendor_xiaomi_surya-miuicamera" revision="14-qpr3" remote="skyy" />
+  <project path="device/xiaomi/surya-miuicamera" name="device_xiaomi_surya-miuicamera" revision="14-qpr3" remote="skyy" />
+  <project path="vendor/xiaomi/surya-miuicamera" name="vendor_xiaomi_surya-miuicamera" revision="14-tes" remote="skyy" />
 
   <!-- Hardware Tree -->
-  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" />
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-21" />
 
   <!-- Vendor Tree -->
   <project path="vendor/xiaomi/surya" name="vendor_xiaomi_surya" revision="qpr3" remote="skyy" />
